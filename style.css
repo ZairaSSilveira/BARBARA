@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(255, 239, 239, 0.2); */
+    padding: 50px;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+}
+
+#visor {
+    /* box-shadow: 10px #891511; */
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.teclado button {
+    width: 60px;
+    height: 80px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+.operacao {
+    background-color: #3123f5;
+    color: #000000;
+}
+
+.teclado .operacao:last-child {
+    background-color: #009689;
+}
+
+.teclado .operacao:nth-last-child(2) {
+    background-color: #891511;
+}
+
+.numero {
+    background-color: #fff;
+}
+
+.teclado .numero:last-child {
+    width: 105px;
+}
+
+.teclado .operacao:last-child {
+    width: 105px;
+}
+
+.teclado button:active {
+    background-color: #ccc;
+}
